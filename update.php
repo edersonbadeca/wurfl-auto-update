@@ -115,5 +115,3 @@ else
 {
 	file_put_contents(WURFL_FILE_LOG, 'WURFL is up to date. Already on version '.$new_version.' ( '.date('Y-m-d H:i:s')." )\r\n", FILE_APPEND | LOCK_EX);
 }
- | LOCK_EX);
-}
